@@ -1,6 +1,7 @@
-let face = ''
-let res = document.getElementById('res')
+let face = '' //cria um elemento vazio que sera preenchido com a seleção dos dados
+let res = document.getElementById('res') 
 
+//funções para os respectivos dados selecionados
 function rollD6() {
     const dados = Math.random()
     window.alert('Rolando o D6...')
@@ -43,6 +44,9 @@ function rollD100() {
     res.innerHTML = face.toFixed(0)
 }
 
+
+
+//uma versão antiga que havia feito
 
 // function rolar() {
 //     let face = ''
